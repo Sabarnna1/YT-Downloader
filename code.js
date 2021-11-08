@@ -35,7 +35,8 @@ app.get("/download", function (req, res) {
   ytdl(videoURL, { filter: (format) => format.itag == itag }).pipe(res); //we pass the object "format" inside the filter function.That "format" object will check each format one at a time and it would return true or false according to the condition.
 });
 
-app.listen(3000, function (err) {
+const port=process.env.PORT||3000;
+app.listen(port, function (err) {
   if (err) console.log("There is error in Server setup");
   else console.log(`Server listening at port 3000`);
 });
