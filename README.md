@@ -5,6 +5,9 @@ Built a **full-stack web application** that allow users to **download YouTube vi
 ### Additional Features
 - Before Downloading, it shows the entire **video name**, **video description** along with its **thumbnail**
 - The user can filter from the various available **MP4 formats** from a dropdown list and accordingly choose the quality of video the user wants to **download** (*Qualities vary from 360p to 480p to 720p depending on the avaible video quality*)
+## Website Link
+- The website is hosted on **Heroku**
+- **Link:** https://youtube-downloader-v6.herokuapp.com/
 
 ## Steps to Contribute in this repository:
 - Fork the entire project and clone the entire project on your local system(Don't forget to star the repo)
@@ -13,7 +16,6 @@ Built a **full-stack web application** that allow users to **download YouTube vi
 - Create a separate branch and start making your desired changes there
 - Once you have done making the changes, commit your changes and make a pull request to the main repository.
 
-The app is hosted on https://youtube-downloader-v6.herokuapp.com/
 
 ### NOTE
 *You can refer to the source code of **ytdl-core** along with all the features that it provides [**here**](https://github.com/fent/node-ytdl-core)*
